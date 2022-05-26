@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-color {
+    background-color: rgb(100, 100, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* estilos a Inicio */
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.of2 {
+    font-weight: bolder;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px;
+    margin: 1rem;
+}
+
+.underline {
+    border-bottom: solid black 2px;
+    padding: 0;
+    margin: 1rem;
+    align-self: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.destinos {
+    display: flex;
+    flex-direction: column;
+}
+
+.destinations {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.titledestin {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+p {
+    align-self: center;
+    padding: 1rem;
+}
+
+.button-index{
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5) ;
+    color: white;
+    background-color: rgb(22, 22, 133);
+}
+
+.button-index:hover{
+    background-color: navy;
+}
+
+@media (min-width: 576px){
+    .title{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .underline {
+        align-content: center;
+    }
+    .date {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .date input {
+        margin: 1rem;
+    }
+    .news {
+        display: flex;
+        margin: 2rem;
+        justify-content: space-around;
+    }
+    .news input {
+        margin: 1rem;
+    }
+    .button-index {
+        padding: none  ;
+    }
+}
+/* FIN estilo a Inicio */
+
+/* estilo a Hoteles */
+.button-hotel{
+    margin: 1rem;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5) ;
+    color: white;
+    background-color: rgb(22, 22, 133);
+}
+
+.button-hotel:hover{
+    background-color: navy;
+}
+/* FIN estilo a Hoteles */
+
+
+/* estilo a Oficinas */
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+iframe {
+    align-self: center;
+    padding: 1rem;
+    
+}
+
+.color-tel {
+    color: white;
+}
+
+@media (min-width: 576px){
+    .location {
+        flex-direction: row;
+    }
+    iframe {
+        padding: 1rem;
+        
+    }
+    
+   
+}
+
+/* FIN estilo a Oficinas */
+
+/* Inicio estilo a Contactos */
+
+.contact-color {
+    background-color: rgb(100, 100, 255);
+}
+
+@media (min-width:576px){
+    .formu{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contact-cont{
+        padding: 5rem;
+
+    }
+    .buttons{
+        flex-direction: column;
+        
+    }
+   
+
+}
+
+.button-contact{
+    margin: 1rem;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5) ;
+    color: white;
+    background-color: rgb(22, 22, 133);
+    
+}
+.button-contact:hover{
+    background-color: navy;
+}
+
+.title-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.consulta-cont {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+/* Fin estilos a Contacto */
+
+/* Inicio estilos a Favoritos */
+
+.fav-color {
+    background-color: rgb(100, 100, 255);
+}
+.button-fav{
+    margin: 1rem;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5) ;
+    color: white;
+    background-color: rgb(22, 22, 133);
+    
+}
+.button-fav:hover{
+    background-color: navy;
+}
+
+
+
+.hoteles .carta {
+    background-position: center;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 2rem ;
+}
+.carta:hover{
+    background-color: rgb(0,0,0,0.2);
+}
+.carta-exc:hover{
+    background-color: rgb(0,0,0,0.2);
+}
+.carta p {
+    color: white;
+    
+}
+ .fav-title{
+    font-size: 2.5em;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.carta:first-child{
+    background-image: linear-gradient(
+        
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(assets/Hotel\ Intercontinental-min.jpg);
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(assets/Hotel\ Plaza-min.jpg)
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(assets/faena\ hotel-min.jpg)
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(assets/Four\ seasons-min.jpg)
+}
+/* -------------------------CARTAS EXCURSIONES --------------------------------*/
+.excursiones .carta-exc {
+    background-position: center;
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.excursiones .carta-exc:first-child{
+    background-image: linear-gradient(
+        
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(assets/rafting-min.jpg)
+}
+.carta-exc:nth-child(2){
+    background-image: linear-gradient(
+        
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(assets/hicking-min.jpg)
+}
+.carta-exc:nth-child(3){
+    background-image: linear-gradient(
+        
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(assets/city-sightseeing-hop-min.jpg)
+}
+
+@media (min-width:768px){
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hoteles .carta {
+    padding: 2rem;
+    margin:10rem
+}
+.excursiones .carta-exc {
+    margin:10rem;
+    padding: 5rem;
+}
+/* estaba intentando achicar los parrafos */
+}
+/* Fin estilos a Favoritos */

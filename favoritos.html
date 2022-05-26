@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Favoritos,Hoteles,Excursiones">
+    <title>Tus Favoritos de Hotels Guide</title>
+    <meta name="description" content="Tus planes favoritos que guardaste en un solo lugar.">
+    <link rel="shortcut icon" href="assets/hotel vector.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+ <!-- nav bar -->
+ <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/hotel_vector-removebg-preview.png" alt="" width="50" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="hoteles.html">Hoteles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="favoritos.html">Favoritos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contactános
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="oficinas.html">Nuestras Oficinas</a></li>
+              <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Busca tu experiencia" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section class="fav-color">
+    
+    <h2 class="fav-title">Favoritos</h2>
+      <div class="contenedor"> 
+        <div class="hoteles">
+          <div class="carta"> <h3 class="fav-title">Hotel Intercontinental</h3>
+            <p>El hotel fue inaugurado en 1995 y se ecuentra ubicado en el centro de la Ciudad de Buenos Aires (Moreno 809).</p>
+            <button class="button-fav">+INFO</button>
+           </div>
+          <div class="carta"> <h3 class="fav-title">Hotel Plaza</h3>
+            <p>Este hotel es una de los más representativos del Buenos Aires de principios del siglo XX en Argentina, se encuentra ubicado en el barrio de Retiro (Florida 1005).</p>
+            <button class="button-fav">+INFO</button>
+          </div>
+          <div class="carta"> <h3 class="fav-title">Hotel Faena</h3>
+            <p>Inaugurado en el año 2004, este hotel de 5 estrellas que alojó a amplia variedad de celebridades internacionales, se encuentra ubicado en el barrio de Puerto Madero.</p>
+            <button class="button-fav">+INFO</button>
+          </div>
+          <div class="carta"><h3 class="fav-title">Hotel Four Seasons</h3>
+            <p>Este hotel declarado Bien de Interés Histórico Artístico por el Gobierno de la Ciudad en 1997, se lo llamó Hotel Four Seasons desde el 2001. Se encuentra ubicado en Cerrito 1455.</p>
+            <button class="button-fav">+INFO</button>
+          </div>
+        </div>
+        
+        <div class="excursiones">
+          <div class="carta-exc"><h3 class="fav-title">Rafting</h3>
+          <button class="button-fav">+INFO</button>
+          </div>
+          <div class="carta-exc"><h3 class="fav-title">Trekking</h3>
+          <button class="button-fav">+INFO</button>
+          </div>
+          <div class="carta-exc"><h3 class="fav-title">Sightseeing</h3>
+          <button class="button-fav">+INFO</button>
+          </div>
+        </div>
+      </div>
+    
+
+  </section>
+
+
+
+  <!-- footer -->
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" >
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href=""/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022. Todos los derechos reservados </span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </footer>
+  </div>
+  
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
